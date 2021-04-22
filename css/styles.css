@@ -1,0 +1,230 @@
+
+.cat{
+    width: 190px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #253342;
+    color: white;
+    font-size: 120%;
+    box-shadow: 0 5px #999;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.08s;
+    }.cat:active{
+    box-shadow: 0px 0px #666;
+    transform: translateY(5px)
+    }
+    input[type="text"],input[type="email"],input[type="password"], textarea {
+        background-color: white;
+        width: 10%;
+        height: 35px;
+        border: 1px solid #999;
+        border-radius: 15px;
+        margin: 5px 0;
+        direction: rtl;
+        padding: 0 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #wsfoter{
+        clear: both;
+        text-align: center;
+        background-color: #253342;
+        color: white;
+        padding: 35px 0;
+        margin: auto;
+        width: 100%;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: greenyellow;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #logo{
+        float: right;
+        width: 15%;
+        margin: 5px;
+        font-size: 18px;
+        margin-top: 20em;
+    }
+#value3{
+    float: left;
+}
+#resut{
+    float: left;
+}
+#SA{
+    float: left;
+}
+#result{
+    clear: both;
+    text-align: center;
+    background-color: #253342;
+    color: white;
+    padding: 2px 0;
+}
+#resute{
+    clear: both;
+    text-align: center;
+    background-color: #253342;
+    color: white;
+    padding: 2px 0;
+}
+#resut7{
+    clear: both;
+    text-align: center;
+    background-color: #253342;
+    color: white;
+    padding: 2px 0;
+}
+#namea{
+    float: right;
+    margin-top: -30em;
+}
+#lnamea{
+    color: white;
+    background-color: #253342;
+    float: right;
+    margin-top: -16em;
+    font-size: 1.5em;
+}
+#sa{
+    float: right;
+    margin-top: -4em;
+}
+#se{
+    float: right;
+    margin-top: 55em;
+}
+#so{
+    float: right;
+    margin-top: 30em;
+}
+#asa{
+    float: right;
+    margin-top: -17em;
+}
+#Degree{
+    float: right;
+    margin-top: -22em;
+    margin-right: 210px;
+}
+#Degree1{
+    float: right;
+    margin-top: -22em;
+    margin-right: 210px;
+}
+#as{
+    float: right;
+    margin-top: -22em;
+}
+#asaa{
+    float: right;
+    margin-top: -15em;
+}
+#resulta{
+    clear: both;
+    text-align: center;
+    background-color: #253342;
+    color: white;
+    padding: 2px 0;
+    float: right;
+    margin-top: -25em;
+}
+.cata{
+    width: 190px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #253342;
+    color: white;
+    font-size: 120%;
+    box-shadow: 0 5px #999;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.08s;
+    float: right;
+    margin-top: -22em;
+    }.cata:active{
+    box-shadow: 0px 0px #666;
+    transform: translateY(5px)
+    }
+    /* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .cate{
+    margin: auto;
+    width: 20%;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #666;
+    color: white;
+    font-size: 120%;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.08s;
+    }

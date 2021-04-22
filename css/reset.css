@@ -1,0 +1,59 @@
+*{
+  background-color: #eee;
+}
+#body {
+    font-family: helvetica;
+    background: #eee;
+    text-align: center;
+  }
+  
+  #h1 {
+    font-size: 1.5em;
+  }
+  
+  #form {
+    margin-top: 2em;
+  }
+  
+  .hide {
+    position: absolute;
+    left: -10000px;
+    margin: 100px;
+  }
+  
+  label {
+    display: inline-block;
+    background: gray;
+    margin: 25px;
+    position: relative;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+  
+  #happy ~ .option-happy {
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+  }
+  #happy:checked ~ .option-happy {
+    background: green;
+  }
+  
+  #sad ~ .option-sad {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='70' height='70' viewport='0 0 200 200' style='fill:black;font-size:35px;'><text y='50%'>😡</text></svg>") 30 30,auto;
+  }
+  #sad:checked ~ .option-sad {
+    background: red;
+  }
+  
+  #meh ~ .option-meh {
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/meh.png"), auto;
+  }
+  #meh:checked ~ .option-meh {
+    background: orange;
+  }
